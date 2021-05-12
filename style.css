@@ -1,0 +1,181 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body    {
+    background: #f0f0f0;
+}
+
+.container {
+    background: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    filter: drop-shadow(1em 1em 1em);
+}
+
+img {
+    height: 400px;
+    padding: 30px;
+}
+
+#name  {
+    margin: 20px;
+}
+
+#degree  {
+    margin: 20px;
+}
+
+#about  {
+    margin: 20px;
+}
+
+#des  {
+    margin: 20px;
+}
+
+.images  {
+    height: 200px;
+}
+
+hr  {
+    width: 80%;
+    margin: auto;
+    color: red;
+    border: none;
+    height: 50px;
+}
+
+#career h1  {
+    /* border: 2px solid red; */
+    padding: 15px 0 5px 15px;
+    /* font-size: 50px; */
+}
+
+#career h3  {
+    padding: 15px 0 5px 15px;
+}
+
+#career h4  {
+    padding: 15px 0 5px 15px;
+}
+
+#career ul  {
+    padding: 15px;
+    margin-left: 20px;
+}
+
+#career strong  {
+    font-size: 15px;
+}
+
+#es {
+    /* width: 90%; */
+    margin: 20px auto;
+    /* border: 2px solid green; */
+    padding: 10px;
+    /* height: 20px; */
+}
+
+#es h1  {
+    /* border: 2px solid red; */
+    padding: 15px;
+    /* font-size: 50px; */
+}
+
+#es li  {
+    /* border: 2px solid red; */
+    padding: 5px 5px 5px 15px;
+    /* text-decoration: none; */
+    /* font-size: 50px; */
+}
+
+#es table td {
+    /* border: 2px solid red; */
+    padding: 5px 50px 5px 15px;
+    /* margin: 20px; */
+    /* text-decoration: none; */
+    /* font-size: 50px; */
+}
+
+#skills {
+    margin-top: 50px;
+}
+
+#education  {
+    /* background-color: red; */
+    /* width: 70%; */
+    margin: 0px auto;
+    display: flex;
+}
+
+#edu    {
+    /* width: 70%; */
+    padding: 20px
+}
+
+#education  h1{
+    padding: 15px 15px 0px 15px;
+}
+
+#education  h3{
+    padding: 15px 15px 0px 15px;
+}
+
+#education  h4{
+    padding: 15px 15px 0px 15px;
+}
+
+#education ul  {
+    padding: 15px;
+    margin-left: 20px;
+}
+
+#interest  {
+    /* background-color: red; */
+    /* width: 70%; */
+    margin: 0px auto;
+    display: flex;
+}
+
+#int    {
+    /* width: 70%; */
+    padding: 20px
+}
+
+#interest  h1{
+    padding: 15px 15px 0px 15px;
+}
+
+/* #interest   h3{
+    padding: 15px 15px 0px 15px;
+}
+
+#interest   h4{
+    padding: 15px 15px 0px 15px;
+} */
+
+
+#interest  ul  {
+    padding: 15px;
+    margin-left: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    img {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #edu    {
+        width: 100%;
+    }
+
+    #int    {
+        width: 100%;
+    }
+}
